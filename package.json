@@ -3,9 +3,8 @@
     "asar": "^0.13.0",
     "chai": "^3.4.1",
     "coveralls": "^2.11.4",
-    "electron": "^1.8.2",
+    "electron": "^1.7.9",
     "electron-mocha": "^3.1.1",
-    "electron-rebuild": "^1.7.3",
     "fs-jetpack": "^1.2.0",
     "gulp": "^3.9.0",
     "gulp-util": "^3.0.6",
@@ -22,7 +21,7 @@
     "rcedit": "^0.3.0"
   },
   "scripts": {
-    "postinstall": "node ./tasks/app_npm_install && node ./node_modules/.bin/electron-rebuild",
+    "postinstall": "node ./tasks/app_npm_install",
     "app-install": "node ./tasks/app_npm_install",
     "build": "./node_modules/.bin/gulp build",
     "release": "./node_modules/.bin/gulp release",
